@@ -116,7 +116,7 @@ function ping_regions(iteration_id, region_id) {
 		if (true !== window.stop_that || region_id !== 0) {
 			ping_regions(iteration_id, region_id)
 		}
-	})
+	});
 }
 
 function highlight_stats(arr) {
